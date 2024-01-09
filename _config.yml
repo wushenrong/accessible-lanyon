@@ -1,0 +1,95 @@
+# Setup
+title: Accessible-Lanyon
+tagline: An accessible lanyon benefits everyone.
+description: >-
+  A more accessible, opinionated, reserved Jekyll theme that places the upmost
+  gravity on content with a hidden drawer. Originally made by @mdo with
+  modifications by @zwotzie and @twopizza9621536.
+baseurl: /accessible-lanyon
+url: https://twopizza9621536.github.io
+excerpt_separator: <!-- more -->
+
+# Repository
+repository: TwoPizza9621536/accessible-lanyon
+origin: https://github.com/TwoPizza9621536/accessible-lanyon.git
+
+# Timezone and Locale
+timezone: America/New_York
+locale: en-US
+lang: en-US
+
+# Author/Contact
+author:
+  name: Samuel Wu
+  url: https://github.com/TwoPizza9621536
+  email: twopizza9621536@gmail.com
+
+twitter:
+  username: TwoPizza9621536
+  card: summery
+
+# SEO
+google_site_verification:
+
+# Favicon
+favicon:
+  source:
+
+# Permalinks
+permalink: /:title
+
+# Pagination
+pagination:
+  enabled: true
+  per_page: 5
+  sort_reverse: true
+
+# AutoPages
+autopages:
+  enabled: true
+
+# Front Matter Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: "pages/"
+    values:
+      layout: default
+      sitemap: false
+
+# Mentions
+jekyll-mentions:
+
+# Check for YAML errors
+strict_front_matter: true
+
+# Latent Semantic Indexer
+lsi: true
+
+# Redirect
+redirect_from:
+  json: false
+
+# External Links
+target-blank:
+  css_class: external
+
+# MathML Support
+kramdown:
+  math_engine: katex
+
+# Exclude files
+exclude:
+  - LICENSE
+  - LICENSES
+  - node_modules
+  - package-lock.json
+  - package.json
+  - README.md
+# Include files
+# include:
+#   - .well-known

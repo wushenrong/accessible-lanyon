@@ -1,0 +1,14 @@
+---
+title: Home
+permalink: /
+pagination:
+  enabled: true
+---
+
+<section class="posts">
+  {% for post in paginator.posts %}
+  {% include article.html %}
+  {% endfor %}
+</section>
+
+{% include pagination.html %}

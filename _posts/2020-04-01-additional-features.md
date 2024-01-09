@@ -1,6 +1,10 @@
 ---
 title: Additional Features
 last_modified_at: 2024-01-09 15:19:09 -0500
+tags:
+  - Sample Page
+category: Settings
+katex: true
 ---
 
 <p class="message">
@@ -27,7 +31,7 @@ last_modified_at: 2024-01-09 15:19:09 -0500
   <figcaption>Caption describing this small image.</figcaption>
 </figure>
 
-## External Links
+## External Links and Assets
 
 A link to [Wikipedia](https://en.wikipedia.org) which will not open in a new
 window.
@@ -35,12 +39,15 @@ window.
 A link to <a href="https://en.wikipedia.org" class="external">Wikipedia</a>
 which will open in a new window.
 
+With the [Jekyll Asset Path Plugin][1] you can now organize and add links to
+assets from other posts using the `asset_path` tag.
+
 ---
 
 ## Messages With Icons
 
 This theme uses [Octicons](https://primer.style/foundations/icons/) for some of
-its icons and they can be combined with [Primer colors][1] to create additional
+its icons and they can be combined with [Primer colors][2] to create additional
 messages with different importance.
 
 <p class="message notice">
@@ -109,4 +116,22 @@ adder(2, 6)
 {% endhighlight %}
 <!-- markdownlint-enable -->
 
-[1]: https://github.com/primer/primitives
+## Math Support
+
+[KaTeX](https://katex.org/) is included with this theme. Now you can write math
+with `$$` by adding `katex: true` in the document's front matter.
+
+$$
+\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
+
+$$
+e^{i \theta} = \cos{\theta} + i\sin{\theta}
+$$
+
+$$
+\lim_{h \to 0}{\frac{f(x+h) - f(x)}{h}} = \frac{d}{dx}f(x)
+$$
+
+[1]: https://github.com/samrayner/jekyll-asset-path-plugin
+[2]: https://github.com/primer/primitives

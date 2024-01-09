@@ -1,6 +1,8 @@
 ---
 title: Example content
 last_modified_at: 2024-01-07 21:42:15 -0500
+tags:
+  - Sample Page
 ---
 
 <p class="message">

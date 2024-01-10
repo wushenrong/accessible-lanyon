@@ -168,7 +168,7 @@ Accessible-Lanyon has two branches, but only one is used for active development.
 
 - `main` for development and releases.
   **All pull requests should be to submitted against `main`.**
-- `gh-pages` for project site, a github action is ran to build the site.
+- `pages` for project site, a github action is ran to build the site.
   **Please avoid using this branch as is a difference between the branches.**
 
 ## Author

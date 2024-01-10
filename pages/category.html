@@ -10,7 +10,7 @@ permalink: /category/
     <li>
       <a
         href="{{ category[0] | slugify | prepend: '/category/' | relative_url }}">
-        {{category[0] }}
+        {{ category[0] | capitalize }}
       </a>
     </li>
     {% endfor %}

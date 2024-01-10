@@ -195,8 +195,10 @@ websites:
 - [m-cat](https://www.bytedude.com/jekyll-syntax-highlighting-and-line-numbers)
 - [jreel](https://jreel.github.io/social-media-icons-on-jekyll/)
 
-Some icons are from Font Awesome, they are located in `assets/svg` and are under
-the CC-BY 4.0 License.
+Most icons, Octicons, and some colors are from @primer, they are licensed under
+the MIT License.
+While other icons in `assets/svg` are from Font Awesome, which are under the
+CC-BY 4.0 License.
 
 Fonts in `assets/fonts` are under the Open Font License 1.1 and KaTeX fonts in
 `assets/fonts/KaTeX` are under the MIT License.

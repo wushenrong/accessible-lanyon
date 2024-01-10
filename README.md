@@ -182,14 +182,18 @@ Accessible-Lanyon has two branches, but only one is used for active development.
 The theme is available as open source under the terms of the
 [MIT License](LICENSE).
 
-This project uses some content which are licensed under the Mozilla Public
-License 2.0. Below is a list of those files:
+This project uses some content from Mozilla Developer Network which are licensed
+under the Mozilla Public License 2.0. Below is a list of those files:
 
 - `_layouts/mozilla.html`
 - `_sass/mozilla.scss`
 
 Check other HTML and CSS files for additional content that comes from other
-websites.
+websites:
+
+- [botleg](https://botleg.com/stories/line-numbers-in-jekyll-code-blocks/)
+- [m-cat](https://www.bytedude.com/jekyll-syntax-highlighting-and-line-numbers)
+- [jreel](https://jreel.github.io/social-media-icons-on-jekyll/)
 
 Some icons are from Font Awesome, they are located in `assets/svg` and are under
 the CC-BY 4.0 License.
@@ -197,7 +201,9 @@ the CC-BY 4.0 License.
 Fonts in `assets/fonts` are under the Open Font License 1.1 and KaTeX fonts in
 `assets/fonts/KaTeX` are under the MIT License.
 
-These licenses can be found in the [`LICENSES` folder](LICENSES)
+Classifier-reborn is under the LGPL 2.1 or later.
+
+These licenses can be found in the `LICENSES` folder.
 
 [1]: https://github.com/zwotzie/neo-lanyon
 [2]: https://jekyllrb.com/docs/frontmatter/

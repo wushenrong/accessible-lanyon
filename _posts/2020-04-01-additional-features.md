@@ -118,20 +118,18 @@ adder(2, 6)
 
 ## Math Support
 
-[KaTeX](https://katex.org/) is included with this theme. Now you can write math
-with `$$` by adding `katex: true` in the document's front matter.
+[$$\KaTeX$$](https://katex.org/) is included with this theme. Now you can write
+math with `$$` by adding `katex: true` in the document's front matter.
 
-$$
-\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-$$
+Euler's formula: $$e^{i \theta} = \cos{\theta} + i\sin{\theta}$$
 
-$$
-e^{i \theta} = \cos{\theta} + i\sin{\theta}
-$$
+> To get the x value of a parabola, you would use the quadratic function (1).
+>
+> $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$ (1)
 
-$$
-\lim_{h \to 0}{\frac{f(x+h) - f(x)}{h}} = \frac{d}{dx}f(x)
-$$
+Definition of a Derivative:
+
+$$\frac{d}{dx}f(x) = \lim_{h \to 0}{\frac{f(x+h) - f(x)}{h}}$$
 
 [1]: https://github.com/samrayner/jekyll-asset-path-plugin
 [2]: https://github.com/primer/primitives

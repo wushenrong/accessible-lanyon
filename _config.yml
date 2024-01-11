@@ -13,6 +13,8 @@ excerpt_separator: <!-- more -->
 repository: TwoPizza9621536/accessible-lanyon
 origin: https://github.com/TwoPizza9621536/accessible-lanyon.git
 
+version: 1.1.0
+
 # Timezone and Locale
 timezone: America/New_York
 locale: en-US

@@ -131,5 +131,12 @@ Definition of a Derivative:
 
 $$\frac{d}{dx}f(x) = \lim_{h \to 0}{\frac{f(x+h) - f(x)}{h}}$$
 
+## Task List
+
+- [X] Release Theme
+- [X] List missing features
+- [X] Remake syntax theme
+- [ ] Can this theme do not need an update everyday
+
 [1]: https://github.com/samrayner/jekyll-asset-path-plugin
 [2]: https://github.com/primer/primitives

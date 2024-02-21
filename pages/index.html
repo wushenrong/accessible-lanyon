@@ -11,4 +11,6 @@ pagination:
   {% endfor %}
 </section>
 
+{% if paginator.total_pages > 1 %}
 {% include pagination.html %}
+{% endif %}

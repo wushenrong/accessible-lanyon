@@ -3,7 +3,6 @@ title: Additional Features
 last_modified_at: 2024-01-09 15:19:09 -0500
 tags:
   - Sample Page
-category: Settings
 katex: true
 ---
 

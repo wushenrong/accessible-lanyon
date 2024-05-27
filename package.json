@@ -1,13 +1,16 @@
 {
   "private": true,
   "dependencies": {
-    "clean-css-cli": "^5.6.3",
-    "html-minifier": "^4.0.0",
-    "minify-xml": "^4.3.0"
+    "cssnano": "^7.0.1",
+    "cssnano-preset-advanced": "^7.0.1",
+    "htmlnano": "^2.1.1",
+    "minify-xml": "^4.3.0",
+    "postcss-cli": "^11.0.0",
+    "posthtml-cli": "^0.10.0"
   },
   "scripts": {
-    "html": "html-minifier -c .html-minifier.json --input-dir _site --output-dir _site --file-ext html",
-    "css": "cleancss --batch --batch-suffix '' _site/**/*.css",
+    "html": "posthtml _site/**/*.html -o _site",
+    "css": "postcss _site/**/*.css -r",
     "xml": "minify-xml --in-place _site/feed.xml && minify-xml --in-place _site/sitemap.xml"
   }
 }

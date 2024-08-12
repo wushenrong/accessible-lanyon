@@ -175,7 +175,7 @@ Accessible-Lanyon has two branches, but only one is used for active development.
 
 - Mark Otto @mdo
 - Nichts Besonderes @zwotzie
-- Samuel Wu @TwoPizza9621536
+- Samuel Wu @wushenrong
 
 ## License
 

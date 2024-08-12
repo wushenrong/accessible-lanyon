@@ -175,4 +175,4 @@ Want to see something else added? [Open an issue.][2]
 *[XML]: Extended Markup Language
 
 [1]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
-[2]: https://github.com/TwoPizza9621536/accessible-lanyon/issues/new
+[2]: https://github.com/wushenrong/accessible-lanyon/issues/new

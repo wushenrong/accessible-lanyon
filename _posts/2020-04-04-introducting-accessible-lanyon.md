@@ -37,7 +37,7 @@ In addition to the features of Poole, Lanyon adds the following:
 - Sidebar includes support for textual modules and a dynamically generated
   navigation with active link support
 
-[Head to the readme](https://github.com/TwoPizza9621536/accessible-lanyon) to
+[Head to the readme](https://github.com/wushenrong/accessible-lanyon) to
 learn more.
 
 ## Browser support
@@ -54,4 +54,4 @@ Lanyon is developed on and hosted with GitHub. Head to the
 Thanks!
 
 [1]: https://github.com/zwotzie/neo-lanyon
-[2]: https://github.com/TwoPizza9621536/
+[2]: https://github.com/wushenrong/

@@ -4,14 +4,14 @@ tagline: An accessible lanyon benefits everyone.
 description: >-
   A more accessible, opinionated, reserved Jekyll theme that places the upmost
   gravity on content with a hidden drawer. Originally made by @mdo with
-  modifications by @zwotzie and @twopizza9621536.
+  modifications by @zwotzie and @wushenrong.
 baseurl: /accessible-lanyon
-url: https://twopizza9621536.github.io
+url: https://wushenrong.github.io
 excerpt_separator: <!-- more -->
 
 # Repository
-repository: TwoPizza9621536/accessible-lanyon
-origin: https://github.com/TwoPizza9621536/accessible-lanyon.git
+repository: wushenrong/accessible-lanyon
+origin: https://github.com/wushenrong/accessible-lanyon.git
 
 # Timezone and Locale
 timezone: America/New_York
@@ -21,12 +21,8 @@ lang: en-US
 # Author/Contact
 author:
   name: Samuel Wu
-  url: https://github.com/TwoPizza9621536
+  url: https://github.com/wushenrong
   email: twopizza9621536@gmail.com
-
-twitter:
-  username: TwoPizza9621536
-  card: summery
 
 # SEO
 google_site_verification:
